@@ -5,7 +5,7 @@ I encourage you to go over my projects and give me any suggestions.
 In this project, I built my first neural network and used it to predict daily bike rental ridership.
 
 Imagine you own a Bike Sharing company and you want to know how many bikes you're going to need for potential customers.
-I programmed a neural network to predict how many bikes we're going to need based from historical data.
+I programmed a neural network to predict how many bikes we're going to need making use of our historical data.
 ### Dog Breed Classifier
 
 In this project, I built a Convolutional Neural Network that processes user-supplied dog images and gives an estimate of the dog's breed.
