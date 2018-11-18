@@ -72,6 +72,6 @@ You can check out my results by clicking my Navigation.md file.
 
 The following is a YouTube video of my trained agent interacting with the environment:
 
-Click the following image to watch my video on **YouTube**:
+Click the following image to watch my **YouTube video**:
 
 [![](http://img.youtube.com/vi/WdY7RmkPv2E/0.jpg)](http://www.youtube.com/watch?v=WdY7RmkPv2E "")
