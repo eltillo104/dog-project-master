@@ -64,3 +64,14 @@ Please follow the instructions below to set up your python environment first.
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+
+### Results
+
+The program has my own implementation of a Deep Q Learning algorithm. 
+You can check out my results by clicking my Navigation.md file.
+
+The following is a YouTube video of my trained agent interacting with the environment:
+
+Click the following image to watch my video on **YouTube**:
+
+[![](http://img.youtube.com/vi/WdY7RmkPv2E/0.jpg)](http://www.youtube.com/watch?v=WdY7RmkPv2E "")
