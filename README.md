@@ -35,4 +35,4 @@ you to give me some advice to improve this agent's learning.
 
 In this project, I built a program in which an agent collects yellow bananas in a 3D environment. 
 
-The goal of the game is to obtain as many yellow bananas in an episode as possible while avoiding blue bananas. Yellow bananas reward the agent with 1 point while blue bananas decrease the reward by one point. I made use of Deep Q learning for this task and achieved a total score of 13 points for 1 episode. 
+The goal of the game is to obtain as many yellow bananas in an episode as possible while avoiding blue bananas. Yellow bananas reward the agent with 1 point while blue bananas decrease the reward by 1 point. I made use of Deep Q learning for this task and achieved a total score of 13 points for 1 episode. 
