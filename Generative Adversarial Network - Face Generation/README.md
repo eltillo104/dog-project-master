@@ -201,23 +201,6 @@ DON'T MODIFY ANYTHING IN THIS CELL THAT IS BELOW THIS LINE
 """
 tests.test_discriminator(discriminator, tf)
 ```
-
-    ERROR:tensorflow:==================================
-    Object was never used (type <class 'tensorflow.python.framework.ops.Operation'>):
-    <tf.Operation 'assert_rank_2/Assert/Assert' type=Assert>
-    If you want to mark it as used call its "mark_used()" method.
-    It was originally created here:
-      File "/home/kenneth/miniconda3/envs/GAN/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3287, in run_code
-        return outflag  File "<ipython-input-5-d727d1caa076>", line 13, in <module>
-        tests.test_model_inputs(model_inputs)  File "/home/kenneth/Artificial-Intelligence/Generative Adversarial Network - Face Generation/problem_unittests.py", line 14, in func_wrapper
-        return result  File "/home/kenneth/Artificial-Intelligence/Generative Adversarial Network - Face Generation/problem_unittests.py", line 68, in test_model_inputs
-        _check_input(learn_rate, [], 'Learning Rate')  File "/home/kenneth/Artificial-Intelligence/Generative Adversarial Network - Face Generation/problem_unittests.py", line 38, in _check_input
-        '{} has bad name.  Found name {}'.format(display_name, tensor.name)  File "/home/kenneth/Artificial-Intelligence/Generative Adversarial Network - Face Generation/problem_unittests.py", line 27, in _assert_tensor_shape
-        '{} has wrong shape.  Found {}'.format(display_name, tensor_shape)  File "/home/kenneth/miniconda3/envs/GAN/lib/python3.6/site-packages/tensorflow/python/ops/check_ops.py", line 827, in assert_rank
-        return assert_op  File "/home/kenneth/miniconda3/envs/GAN/lib/python3.6/site-packages/tensorflow/python/ops/check_ops.py", line 765, in _assert_rank_condition
-        return control_flow_ops.Assert(condition, data, summarize=summarize)  File "/home/kenneth/miniconda3/envs/GAN/lib/python3.6/site-packages/tensorflow/python/util/tf_should_use.py", line 189, in wrapped
-        return _add_should_use_warning(fn(*args, **kwargs))
-    ==================================
     Tests Passed
 
 
