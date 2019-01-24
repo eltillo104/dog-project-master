@@ -67,11 +67,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
 
 
-# Continuous Control
+# My Own Implementation
 
 ---
-
-In this notebook, you will learn how to use the Unity ML-Agents environment for the second project of the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
 
 ### 1. Start the Environment
 
@@ -194,47 +192,14 @@ while True:
     next_states = env_info.vector_observations         # get next state (for each agent)
     
     rewards = env_info.rewards                         # get reward (for each agent)
-    dones = env_info.local_done 
-    print(dones)# see if episode finished
+    dones = env_info.local_done                        # see if episode finished
     scores += env_info.rewards                         # update the score (for each agent)
     states = next_states                               # roll over states to next time step
     if np.any(dones):                                  # exit loop if episode finished
         break
 print('Total score (averaged over agents) this episode: {}'.format(np.mean(scores)))
 ```
-
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
-    [False]
     
-
 When finished, you can close the environment.
 
 
@@ -242,16 +207,16 @@ When finished, you can close the environment.
 env.close()
 ```
 
-### 4. It's Your Turn!
+### 4. DDPG Algorithm
 
-Now it's your turn to train your own agent to solve the environment!  When training the environment, set `train_mode=True`, so that the line for resetting the environment looks like the following:
+I decided to conquer this task with a populat Actor-Critic Method known as DDPG. Below is my own implementation of the algorithm. I display the last 100 episodes of my training and the score obtained by my agent at each episode during the training.
+
 ```python
 env_info = env.reset(train_mode=True)[brain_name]
 ```
 
 
 ```python
-#import gym
 import random
 import torch
 import numpy as np
@@ -263,14 +228,11 @@ agent = Agent(state_size=state_size, action_size=action_size, random_seed=2)
 def ddpg(n_episodes=2500, max_t=10000, print_every=100):
     scores_deque = deque(maxlen=print_every)
     scores = []
-    x=0
-    last_reward = [0] 
     for i_episode in range(1, n_episodes+1):
         score = np.zeros(num_agents)
         env_info = env.reset(train_mode=True)[brain_name]  
         states = env_info.vector_observations
         agent.reset()
-        actions = np.zeros((num_agents,action_size))
         for t in range(max_t):
             action = agent.act(states)
             env_info = env.step(action)[brain_name]
@@ -408,7 +370,7 @@ plt.show()
 
 ![png](output_13_1.png)
 
-
+Now it is time to test my trained agent interacting with the environment. You can make use of my trained weights to visualize the agent interacting in the 3D Unity environment accessing the file 'checkpoint_actor.pth' and 'checkpoint_critic.pth'.
 
 ```python
 import torch
@@ -440,3 +402,9 @@ print('Total score (averaged over agents) this episode: {}'.format(np.mean(score
 ```python
 
 ```
+
+You can also check my YouTube videoof my agent interacting with the environment if you prefer.
+
+Click the following image to watch my **YouTube video**:
+
+[![](https://img.youtube.com/vi/2kn2DfUKhD4/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kn2DfUKhD4 "")
