@@ -403,7 +403,7 @@ print('Total score (averaged over agents) this episode: {}'.format(np.mean(score
 
 ```
 
-You can also check my YouTube video of my agent interacting with the environment if you prefer.
+You can also check out my YouTube video of my agent interacting with the environment if you prefer.
 
 Click the following image to watch my **YouTube video**:
 
