@@ -1,5 +1,8 @@
 # Artificial Intelligence: Deep  Reinforcement Learning
-I encourage you to go over my projects and give me any suggestions.
+Deep Reinforcement Learning is a family of algorithms that makes an agent act smarter in a particular environment. I believe this family of algorithms will lead to Artificial General Intelligence together with Deep Learning. These projects showcase the use of the following algorithms:
+- Deep Q-Learning
+- Deep Deterministic Policy Gradients
+- Multi-Agent Deep Deterministic Policy Gradients
 
 ### Quadcopter Project
 
