@@ -6,10 +6,9 @@ Deep Reinforcement Learning is a family of algorithms that makes an agent act sm
 
 ### Quadcopter Project
 
-In this project, I built a Deep Reinforcement Learning program that teaches a Quadcopter how to fly, hover, and land using the Actor-Critic Method.
+In this project, I built a Deep Reinforcement Learning program that teaches a Quadcopter how to fly, hover, and land using the Actor-Critic Method known as DDPG (Deep Deterministic Policy Gradients).
 
-I created a Deep Reinforcement Learning Agent that takes off, stays at a certain height, and lands to the ground after. This is the most
-complex project to understand from this repository. Please feel free to ask me how I can help you understand this program. I also welcome
+I created a Deep Reinforcement Learning Agent that takes off, stays at a certain height, and lands to the ground after. Please feel free to ask me how I can help you understand this program. I also welcome
 you to give me some advice to improve this agent's learning.
 
 ### Navigation Project
