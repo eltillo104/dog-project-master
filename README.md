@@ -3,3 +3,4 @@ In the last few years we've seen something truly remarkable. Artificial Intellig
 
 # Sections
 [Deep Learning](https://kennethmachado.github.io/Artificial-Intelligence/Deep%20Learning/)
+[Deep Reinforcement Learning](https://kennethmachado.github.io/Artificial-Intelligence/Deep%20Reinforcement%20Learning/)
