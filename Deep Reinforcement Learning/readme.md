@@ -11,7 +11,7 @@ In this project, I built a Deep Reinforcement Learning program that teaches a Qu
 I created a Deep Reinforcement Learning Agent that takes off, stays at a certain height, and lands to the ground after. Please feel free to ask me how I can help you understand this program. I also welcome
 you to give me some advice to improve this agent's learning.
 
-[Quadcopter Project](https://kennethmachado.github.io/Artificial-Intelligence/Deep%20Reinforcement%20Learning/Quadcopter%20Project)
+[Quadcopter Project](https://kennethmachado.github.io/Artificial-Intelligence/Deep%20Reinforcement%20Learning/Quadcopter%20Project/)
 
 ### Navigation Project
 
