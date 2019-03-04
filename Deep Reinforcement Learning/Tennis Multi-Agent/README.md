@@ -420,3 +420,8 @@ for i in range(1, 20):
 
 ```
 
+You can also check out my YouTube video of my agents interacting in the environment with my trained weights if you prefer.
+
+Click the following image to watch my **YouTube video**:
+
+[![](http://i3.ytimg.com/vi/FeU6pLBfB3k/maxresdefault.jpg)](https://www.youtube.com/watch?v=FeU6pLBfB3k "")
