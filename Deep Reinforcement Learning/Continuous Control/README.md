@@ -407,4 +407,4 @@ You can also check out my YouTube video of my agent interacting with the environ
 
 Click the following image to watch my **YouTube video**:
 
-[![](https://img.youtube.com/vi/2kn2DfUKhD4/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kn2DfUKhD4 "")
+<a href="https://www.youtube.com/watch?v=2kn2DfUKhD4"><img src="https://img.youtube.com/vi/2kn2DfUKhD4/maxresdefault.jpg"></a>
