@@ -425,3 +425,4 @@ You can also check out my YouTube video of my agents interacting in the environm
 Click the following image to watch my **YouTube video**:
 
 [![](http://i3.ytimg.com/vi/FeU6pLBfB3k/maxresdefault.jpg)](https://www.youtube.com/watch?v=FeU6pLBfB3k "")
+<a href="https://www.youtube.com/watch?v=FeU6pLBfB3k"><img src="http://i3.ytimg.com/vi/FeU6pLBfB3k/maxresdefault.jpg"></a>
